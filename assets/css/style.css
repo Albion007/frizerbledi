@@ -434,6 +434,10 @@ body {
   border-radius: var(--radius-8);
 }
 
+.service-card:hover {
+  background: #adc7ed;
+}
+
 .service-card .card-icon {
   color: var(--indian-yellow);
   font-size: 70px;
