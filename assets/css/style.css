@@ -632,7 +632,7 @@ body {
 .appoin-card .card-banner { display: none; }
 
 .appoin-card .card-content {
-  background-color: rgb(160, 160, 242);
+  background-color: rgb(136, 136, 144);
   padding: 80px 15px;
   text-align: center;
   color: var(--white);
