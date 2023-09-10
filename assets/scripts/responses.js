@@ -19,6 +19,6 @@ function getBotResponse(input) {
         return "SHIHEMI! Faleminderit që na kontaktuat";
     
     } else {
-        return "Më pyet rreth shërbimeve tona!";
+        return "Ju mund të më pyesni gjithçka rreth shërbimeve tona!";
     }
 }
