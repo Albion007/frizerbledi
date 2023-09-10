@@ -35,7 +35,7 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "Përshëndetje! Cilin shërbim kërkoni? Kemi lloje të ndryshme të shërbimeve për stilin e flokëve tuaj."
+    let firstMessage = "Përshëndetje! <br> <br> Unë jam një asistent virtual, programuar që të ju ndihmojë që të arrini një stil të flokëve të dëshiruar. <br><br> Cilin shërbim kërkoni? <br>Kemi lloje të ndryshme të shërbimeve për stilin e flokëve tuaj."
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();
@@ -60,7 +60,7 @@ function getResponse() {
     let userText = $("#textInput").val();
 
     if (userText == "") {
-        userText = "I love Code Palace!";
+        userText = "Ju keni dërguar një mesazh pa tekst!";
     }
 
     let userHtml = '<p class="userText"><span>' + userText + '</span></p>';
@@ -94,7 +94,7 @@ function sendButton() {
 }
 
 function heartButton() {
-    buttonSendText("Ju keni klikuar zemrën!")
+    buttonSendText("Ju keni klikuar zemrën! <br> <b><i>Frizer Bledi</i></b> ju falënderon për këtë!")
 }
 
 // Press enter to send a message

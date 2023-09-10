@@ -10,9 +10,14 @@ function getBotResponse(input) {
 
     // Simple responses
     if (input == "Pershendetje") {
-        return "Pershendetje!";
+        return "Përshëndetje! Si mund të ju ndihmojë?";
+    
+    } else if (input == "Pune te mbare") {
+        return "SHIHEMI! Faleminderit që na kontaktuat. Ju mirëpresim!";
+    
     } else if (input == "Pune te mbare") {
         return "SHIHEMI! Faleminderit që na kontaktuat";
+    
     } else {
         return "Më pyet rreth shërbimeve tona!";
     }
