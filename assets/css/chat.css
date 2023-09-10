@@ -2,7 +2,6 @@
     position: fixed;
     bottom: 16px;
     right: 75px;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 4;
 }
 
@@ -17,6 +16,7 @@
     font-size: 18px;
     border-radius: 10px 10px 10px 10px;
     border-bottom: none;
+    z-index: 4;
 }
 
 .content {
@@ -24,11 +24,12 @@
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .full-chat-block {
     width: 300px;
-    background: white;
+    background: rgb(190, 190, 190);
     text-align: center;
     overflow: auto;
     scrollbar-width: none;
@@ -40,6 +41,7 @@
     min-height: 500px;
     bottom: 0%;
     position: relative;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .chat-container {
@@ -63,7 +65,7 @@
     justify-content: space-between;
     width: 100%;
     align-items: center;
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(120, 115, 115);
     border-radius: 10px 10px 0px 0px;
     padding: 10px 0px 10px 10px;
 }
