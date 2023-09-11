@@ -145,6 +145,81 @@
     animation: floatup .5s forwards
 }
 
+#chat-button {
+    font: inherit;
+    padding: 0.75em 1em;
+    background: hsl(185, 53%, 15%);
+    border: 0.1em solid hsl(185, 53%, 34%);
+    border-radius: 100vw;
+    cursor: pointer;
+    transition: background-color 250ms;
+
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+}
+
+#chat-button:hover,
+#chat-button:focus-visible {
+    background: hsl(185, 53%, 34%);
+}
+
+#chat-button>span {
+    position: absolute;
+    z-index: -1;
+    width: 33.333%;
+    height: 100%;
+
+    background: transparent;
+    opacity: 0.5;
+}
+
+#chat-button> :first-child {
+    left: 0;
+    top: 0;
+}
+
+#chat-button> :last-child {
+    right: 0;
+    top: 0;
+}
+
+#chat-button::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: hsl(200 60% 20%);
+    /* background: hotpink; */
+    width: 10%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    inset: 0;
+    margin: auto;
+    opacity: 0;
+
+    transition: transform 1000ms 200ms, opacity 200ms;
+}
+
+#chat-button:active::before {
+    transform: scale(20);
+    opacity: 1;
+
+    transition: transform 1000ms, opacity 500ms;
+}
+
+#chat-button:has(:first-child:active)::before {
+    margin-left: 0;
+}
+
+#chat-button:has(:last-child:active)::before {
+    margin-right: 0;
+}
+
+#chat-button:has(:first-child:active)::before,
+#chat-button:has(:last-child:active)::before {
+    transition: transform 500ms, opacity 250ms;
+}
+
 @keyframes floatup {
     from {
         transform: translateY(14px);
