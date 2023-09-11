@@ -48,6 +48,12 @@ function getBotResponse(input) {
     } else if (input == "Sa kushton nje qethje?") {
         return "Faleminderit që na kontaktuat. Prerje dhe formim floku 2 euro, Stylist Shaving vetëm 1 euro, Ngjyrë flokëve & Larje 3 euro dhe të gjitha çmimet tjera mund t'i gjeni tek menyja <b>çmimet</b> Ju mirëpresim!";
     
+    } else if (input == "sa kushton qethja?") {
+        return "Faleminderit që na kontaktuat. Prerje dhe formim floku 2 euro, Stylist Shaving vetëm 1 euro, Ngjyrë flokëve & Larje 3 euro dhe të gjitha çmimet tjera mund t'i gjeni tek menyja <b>çmimet</b> Ju mirëpresim!";    
+  
+    } else if (input == "Sa kushton qethja?") {
+        return "Faleminderit që na kontaktuat. Prerje dhe formim floku 2 euro, Stylist Shaving vetëm 1 euro, Ngjyrë flokëve & Larje 3 euro dhe të gjitha çmimet tjera mund t'i gjeni tek menyja <b>çmimet</b> Ju mirëpresim!";        
+
     } else if (input == "sa kushton nje qethje?") {
         return "Faleminderit që na kontaktuat. Prerje dhe formim floku 2 euro, Stylist Shaving vetëm 1 euro, Ngjyrë flokëve & Larje 3 euro dhe të gjitha çmimet tjera mund t'i gjeni tek menyja <b>çmimet</b> Ju mirëpresim!";
     
