@@ -29,7 +29,7 @@
 
 .full-chat-block {
     width: 300px;
-    background: rgb(190, 190, 190);
+    background: hsl(185, 59%, 30%);
     text-align: center;
     overflow: auto;
     scrollbar-width: none;
@@ -65,7 +65,7 @@
     justify-content: space-between;
     width: 100%;
     align-items: center;
-    background-color: rgb(120, 115, 115);
+    background: hsl(185, 64%, 43%);
     border-radius: 10px 10px 0px 0px;
     padding: 10px 0px 10px 10px;
 }
