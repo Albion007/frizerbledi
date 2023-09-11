@@ -159,22 +159,20 @@
 
 @media screen and (max-width:600px) {
     .full-chat-block {
-        width: 83%;
+        width: 100%;
         border-radius: 10px;
+        
     }
-
     .chat-bar-collapsible {
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        width: 98%;
+        position: fixed;        
         bottom: 11px;
+        width: 100%;
     }
 
     .collapsible {
         width: 83%;
         border: 0px;
-        border-top: 3px solid white;
         border-radius: 10px;
+        width: 100%;
     }
 }
